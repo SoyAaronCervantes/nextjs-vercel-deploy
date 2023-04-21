@@ -1,13 +1,13 @@
 import {MainLayout} from "@/components/layout/main-layout";
 import {ReactNode} from "react";
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
-    <h1 className="[ text-5xl ]">Home Page</h1>
+    <h1 className="[ text-5xl ]">Contact Page</h1>
   )
 }
 
-HomePage.getLayout = function getLayout(page: ReactNode) {
+ContactPage.getLayout = function getLayout(page: ReactNode) {
   return (
     <MainLayout>
       {page}
